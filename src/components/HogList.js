@@ -10,7 +10,7 @@ function HogList({allHogs}) {
         updateFilteredHogs(filtered);
       }
     
-    const showHogs = allHogs.map((hog) => (
+    const showHogs = filteredHogs.map((hog) => (
             <HogCard key={hog.name} hog={hog} class='ui eight wide column' />
         ))
         

@@ -158,10 +158,11 @@ ul {
 .hog-card {
   font-weight: bold;
   font-size: 25px;
-  border-style: solid;
-  border-width: 5px;
+  margin: 10px;
   padding: 15px;
   margin: 10px;
+  border-radius: .5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
 }
 
