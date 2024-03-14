@@ -130,7 +130,7 @@ ul {
 
 
 .App-logo {
-  animation: App-logo-spin infinite 5s linear;
+  animation: App-logo-spin infinite 0.4s linear;
   height: 80px;
   transition: all .2s ease-in-out;
 }
@@ -160,5 +160,16 @@ ul {
   font-size: 25px;
   border-style: solid;
   border-width: 5px;
+  padding: 15px;
+  margin: 10px;
 
+}
+
+#hog-container {
+  padding: 20px;
+
+}
+
+.search {
+  margin: 20px;
 }

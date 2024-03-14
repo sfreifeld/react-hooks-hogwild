@@ -10,12 +10,10 @@ function HogList({hogs}) {
 
     
     return (
-        <div>
+        <div id="hog-container">
             <Search />
             <div id="hog-list" class='ui grid container'>
-                <div>
-                    {showHogs}
-                </div>
+                {showHogs}
             </div>
         </div>
     )
