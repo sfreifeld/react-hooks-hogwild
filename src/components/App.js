@@ -16,13 +16,13 @@ function App() {
 
   	console.log("All hogs: ", allHogs);
 	
-	return (
+	  return (
 		<div className="App">
-			<Nav />
-			<HogList hogs={hogs} />
-			<HogForm allHogs={allHogs} hogFormCallback={hogFormCallback} />
+		  <Nav />
+		  <HogList allHogs={allHogs} />
+		  <HogForm allHogs={allHogs} hogFormCallback={hogFormCallback} />
 		</div>
-	);
-}
+	  );
+	}
 
 export default App;
